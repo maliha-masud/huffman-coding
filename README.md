@@ -4,6 +4,7 @@
 This project builds a data compression method: it conveys the same information in a smaller amount of space given some particular data. The focus is on compressing text files.
 
 **How computers internally represent text**
+
 Computers save information as a series of bytes. A byte is an eight-bit value that ranges from 0 to 255. It assigns each character to an eight-bit (a value from 0 to 255). The ASCII encoding is responsible for this mapping.
 > For instance, consider the text “A b ????”. Using the ASCII table above, this is represented as the following sequence of bytes: “65 32 98 32 63 63 63 63”.
 > If we write out the binary string for each character and concatenate them together, we get “0100000100100000011000100010000000111111001111110011111100111111”. Storing our original string with the ASCII encoding requires 8*8 = 64 bits.
