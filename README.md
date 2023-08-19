@@ -18,7 +18,7 @@ A Huffman code is defined by a tree whose leaves are the symbols in the alphabet
 
 If we indicate going left by 0 and going right by 1, then the Huffman code for the above tree is:
 
-<img width="98" alt="image" src="https://github.com/maliha-masud/huffman-coding/assets/121713404/2aa3b51a-c378-4125-a05f-efad9f8beb6d">
+<img width="77" alt="image" src="https://github.com/maliha-masud/huffman-coding/assets/121713404/ae6aa108-6cbf-4d95-a788-eca093d716aa">
 
 A string of symbols aadbaaca would be encoded as 0011100001010. The original 64 bits have been reduced to 13 bits. The reason we get compression is that the symbol “a” occurs quite frequently in the original and the Huffman code uses just one bit to encode it.
 
