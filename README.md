@@ -12,10 +12,12 @@ If we weren’t forced to use eight bits for every character, and we could inste
 Here, the string is compressed by finding a different encoding for the characters, which minimized the number of bits needed.
 
 ### Huffman Trees
-A Huffman code is defined by a tree, whose leaves are the symbols in the alphabet.
+A Huffman code is defined by a tree whose leaves are the symbols in the alphabet.
+
 <img width="88" alt="Screenshot 2023-08-19 150937" src="https://github.com/maliha-masud/huffman-coding/assets/121713404/f5ff562a-6168-48e9-9232-080a790f55ae">
 
 If we indicate going left by 0 and going right by 1, then the Huffman code for the above tree is:
+
 <img width="43" alt="image" src="https://github.com/maliha-masud/huffman-coding/assets/121713404/f211c9b0-9f7b-471a-b483-0bfc72be58a8">
 
 A string of symbols aadbaaca would be encoded as 0011100001010. The original 64 bits have been reduced to 13 bits. The reason we get compression is that the symbol “a” occurs quite frequently in the original and the Huffman code uses just one bit to encode it.
