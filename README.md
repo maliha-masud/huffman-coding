@@ -9,7 +9,7 @@ Computers save information as a series of bytes. A byte is an eight-bit value th
 > For instance, consider the text “A b ????”. Using the ASCII table above, this is represented as the following sequence of bytes: “65 32 98 32 63 63 63 63”.
 > If we write out the binary string for each character and concatenate them together, we get “0100000100100000011000100010000000111111001111110011111100111111”. Storing our original string with the ASCII encoding requires 8*8 = 64 bits.
 
-If we weren’t forced to use eight bits for every character, and we could instead use the binary encoding “? = 0, [space] = 10, A = 110, b = 111”., then our string “A b ????” would become “11010111100000”. This is only 14 bits, significantly smaller than the 64 bits that ASCII requires. Also, none of these codes are a prefix of any others, so there is no ambiguity when decoding.
+If we weren’t forced to use eight bits for every character, and could instead use the binary encoding “? = 0, [space] = 10, A = 110, b = 111”., then the string “A b ????” would become “11010111100000”. This is only 14 bits, significantly smaller than the 64 bits that ASCII requires. Also, none of these codes are a prefix of any others, so there is no ambiguity when decoding.
 Here, the string is compressed by finding a different encoding for the characters, which minimized the number of bits needed.
 
 ### Huffman Trees
