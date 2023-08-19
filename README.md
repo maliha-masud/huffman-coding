@@ -36,7 +36,9 @@ The following is done repeatedly:
 >**In the example above the frequencies are a:5, b:1, c:1, d:1**
 
 <img width="209" alt="image" src="https://github.com/maliha-masud/huffman-coding/assets/121713404/bd4a9508-9108-4403-ad43-3562255d6bb0">
+
 ---
+
 <img width="299" alt="image" src="https://github.com/maliha-masud/huffman-coding/assets/121713404/443c9120-e3c9-427a-8e39-8e646b316237">
 
 
